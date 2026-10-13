@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Publications — Yuehan Shi</title>
+  <meta name="description" content="Publications by Yuehan Shi: accepted papers at ACML 2026 and PRCV 2026, a manuscript under review at Ocean-Land-Atmosphere Research, and work in preparation on reliable RAG.">
+  <meta name="author" content="Yuehan Shi">
+  <link rel="canonical" href="https://shiyue105.github.io/Yuehan_Shi/publications.html">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Publications — Yuehan Shi">
+  <meta property="og:description" content="All research output by Yuehan Shi, grouped by status.">
+  <meta property="og:url" content="https://shiyue105.github.io/Yuehan_Shi/publications.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Publications — Yuehan Shi">
+  <meta name="twitter:description" content="All research output by Yuehan Shi, grouped by status.">
+
+  <!-- Favicon (original inline SVG monogram) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%2335558A'/%3E%3Ctext x='50' y='66' font-family='Georgia, serif' font-size='44' font-weight='bold' text-anchor='middle' fill='%23FBFAF7'%3EYS%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#FBFAF7">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./assets/css/style.css?v=v1">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ==================== Navigation ==================== -->
+  <nav class="nav" id="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="./index.html" class="nav-logo">Yuehan Shi</a>
+      <div class="nav-links" id="nav-links"></div>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch language" aria-pressed="false">
+          <span class="lang-en lang-active">EN</span>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <span class="lang-zh">中</span>
+        </button>
+        <button class="nav-mobile-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu"></div>
+
+  <!-- Sticky side rails (desktop only) -->
+  <aside class="side-social" id="side-social" aria-label="Social links"></aside>
+  <aside class="side-email" id="side-email" aria-label="Email"></aside>
+
+  <!-- ==================== Publications ==================== -->
+  <main id="main">
+    <div class="pub-page-header">
+      <div class="container">
+        <a class="pub-back" href="./index.html" id="pub-back-link"></a>
+        <h1 class="pub-page-title" id="pub-page-title"></h1>
+        <p class="pub-page-subtitle" id="pub-page-subtitle"></p>
+
+        <div class="pub-toolbar">
+          <div class="pub-filters" role="group" aria-label="Filter publications by status">
+            <button class="pub-filter active" data-filter="all" aria-pressed="true">All</button>
+            <button class="pub-filter" data-filter="accepted" aria-pressed="false">Accepted</button>
+            <button class="pub-filter" data-filter="under-review" aria-pressed="false">Under Review</button>
+            <button class="pub-filter" data-filter="in-preparation" aria-pressed="false">In Preparation</button>
+          </div>
+          <span class="pub-count" id="pub-count" aria-live="polite"></span>
+        </div>
+
+        <section class="pub-group" data-status="accepted" aria-labelledby="group-accepted">
+          <h2 class="pub-group-heading" id="group-accepted"></h2>
+          <div class="pub-list" id="pub-list-accepted"></div>
+        </section>
+
+        <section class="pub-group" data-status="under-review" aria-labelledby="group-under-review">
+          <h2 class="pub-group-heading" id="group-under-review"></h2>
+          <div class="pub-list" id="pub-list-under-review"></div>
+        </section>
+
+        <section class="pub-group" data-status="in-preparation" aria-labelledby="group-in-preparation">
+          <h2 class="pub-group-heading" id="group-in-preparation"></h2>
+          <div class="pub-list" id="pub-list-in-preparation"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text" id="footer-text"></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./assets/js/data.js?v=v1"></script>
+  <script src="./assets/js/publications-data.js?v=v1"></script>
+  <script src="./assets/js/publications.js?v=v1"></script>
+</body>
+</html>
