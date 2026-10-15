@@ -409,7 +409,6 @@ h2 {
 .hero-photo {
   width: 132px;
   margin-bottom: 36px;
-  border: 1.5px solid var(--accent);
   border-radius: 0;
   background: var(--accent-wash);
   overflow: hidden;
