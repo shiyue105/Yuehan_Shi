@@ -29,7 +29,6 @@ var I18N = {
 
     heroMeta: [
       { label: "University", value: "Wenzhou-Kean University" },
-      { label: "GPA", value: "3.85 / 4.0" },
       { label: "Class of", value: "2027 (expected)" },
     ],
 
@@ -219,7 +218,6 @@ var I18N = {
       period: "Aug 2023 \u2014 Jun 2027 (expected)",
       degree: "B.S. in Mathematical Sciences \u2014 Data Analytics Option (Wenzhou-Kean University) & B.A. (Kean University)",
       minor: "Minor: Computer Science",
-      gpa: "GPA: 3.85 / 4.0",
       coursesLabel: "Core courses",
       courses: "Machine Learning, Data Mining, Data Visualization, Big Data Computing, Data Structures, Probability and Statistics, Linear Algebra, Calculus",
       honorsLabel: "Honors & Awards",
@@ -318,7 +316,6 @@ var I18N = {
 
     heroMeta: [
       { label: "\u5c31\u8bfb\u9662\u6821", value: "\u6e29\u5dde\u80af\u6069\u5927\u5b66" },
-      { label: "GPA", value: "3.85 / 4.0" },
       { label: "\u9884\u8ba1\u6bd5\u4e1a", value: "2027 \u5e74" },
     ],
 
@@ -503,7 +500,6 @@ var I18N = {
       period: "2023 \u5e74 8 \u6708 \u2014 2027 \u5e74 6 \u6708\uff08\u9884\u8ba1\uff09",
       degree: "\u7406\u5b66\u5b66\u58eb\uff08\u6570\u5b66\u79d1\u5b66\u2014\u6570\u636e\u5206\u6790\u65b9\u5411\uff0c\u6e29\u5dde\u80af\u6069\u5927\u5b66\uff09\u4e0e\u6587\u5b66\u5b66\u58eb\uff08\u7f8e\u56fd\u80af\u6069\u5927\u5b66\uff09\u53cc\u5b66\u4f4d",
       minor: "\u8f85\u4fee\uff1a\u8ba1\u7b97\u673a\u79d1\u5b66",
-      gpa: "GPA\uff1a3.85 / 4.0",
       coursesLabel: "\u6838\u5fc3\u8bfe\u7a0b",
       courses: "\u673a\u5668\u5b66\u4e60\u3001\u6570\u636e\u6316\u6398\u3001\u6570\u636e\u53ef\u89c6\u5316\u3001\u5927\u6570\u636e\u8ba1\u7b97\u3001\u6570\u636e\u7ed3\u6784\u3001\u6982\u7387\u8bba\u4e0e\u6570\u7406\u7edf\u8ba1\u3001\u7ebf\u6027\u4ee3\u6570\u3001\u5fae\u79ef\u5206",
       honorsLabel: "\u8363\u8a89\u4e0e\u5956\u9879",

@@ -256,7 +256,7 @@
       '<p class="edu-location">' + escapeHTML(ed.location) + "</p>" +
       '<p class="edu-degree">' + escapeHTML(ed.degree) + "</p>" +
       '<p class="edu-minor">' + escapeHTML(ed.minor) + "</p>" +
-      '<p class="edu-gpa">' + escapeHTML(ed.gpa) + "</p>" +
+      (ed.gpa ? '<p class="edu-gpa">' + escapeHTML(ed.gpa) + "</p>" : "") +
       '<p class="edu-courses"><strong>' + escapeHTML(ed.coursesLabel) + ":</strong> " + escapeHTML(ed.courses) + "</p>";
 
     var honors = document.getElementById("honors-list");
