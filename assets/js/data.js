@@ -103,10 +103,6 @@ var I18N = {
 
     latestUpdates: [
       {
-        date: "Sep 2026",
-        text: "Joined the WKU Career Development Center as a Student Assistant.",
-      },
-      {
         date: "Jul 2026",
         text: "Started RC-TTD \u2014 risk-calibrated test-time decisions for reliable RAG \u2014 as lead researcher.",
       },
@@ -263,16 +259,6 @@ var I18N = {
           ],
         },
         {
-          org: "WKU Career Development Center",
-          location: "Wenzhou, China",
-          title: "Student Assistant",
-          period: "Sep 2026 \u2014 Present",
-          group: "campus",
-          bullets: [
-            "Organize admissions and graduation information and create official social-media posts and email communications for overseas-study and career-development events.",
-          ],
-        },
-        {
           org: "WKU Student Affairs Department",
           location: "Wenzhou, China",
           title: "Student Assistant",
@@ -405,10 +391,6 @@ var I18N = {
     },
 
     latestUpdates: [
-      {
-        date: "2026 \u5e74 9 \u6708",
-        text: "\u52a0\u5165\u6e29\u80af\u5927\u5b66\u804c\u4e1a\u53d1\u5c55\u4e2d\u5fc3\uff0c\u62c5\u4efb\u5b66\u751f\u52a9\u7406\u3002",
-      },
       {
         date: "2026 \u5e74 7 \u6708",
         text: "\u4f5c\u4e3a\u7b2c\u4e00\u7814\u7a76\u8005\u542f\u52a8 RC-TTD \u9879\u76ee\u2014\u2014\u9762\u5411\u53ef\u9760 RAG \u7684\u98ce\u9669\u6821\u51c6\u6d4b\u8bd5\u65f6\u51b3\u7b56\u3002",
@@ -558,16 +540,6 @@ var I18N = {
           bullets: [
             "\u4f7f\u7528 MySQL \u4e3a\u533b\u9662\u4fe1\u606f\u7cfb\u7edf\uff08HIS\uff09\u5f00\u53d1\u6570\u636e\u67e5\u8be2\u4e0e\u4e1a\u52a1\u62a5\u8868\uff0c\u8986\u76d6\u95e8\u8bca\u3001\u4f4f\u9662\u4e0e\u8bca\u65ad\u8bb0\u5f55\u3002",
             "\u719f\u6089\u533b\u7597\u4e1a\u52a1\u6d41\u7a0b\u4e0e\u4fe1\u606f\u7cfb\u7edf\u5e94\u7528\uff0c\u652f\u6301\u7cfb\u7edf\u90e8\u7f72\u4e0e\u529f\u80fd\u4f18\u5316\u3002",
-          ],
-        },
-        {
-          org: "\u6e29\u80af\u5927\u5b66\u804c\u4e1a\u53d1\u5c55\u4e2d\u5fc3",
-          location: "\u4e2d\u56fd\u6e29\u5dde",
-          title: "\u5b66\u751f\u52a9\u7406",
-          period: "2026 \u5e74 9 \u6708 \u2014 \u81f3\u4eca",
-          group: "campus",
-          bullets: [
-            "\u6574\u7406\u62db\u751f\u4e0e\u6bd5\u4e1a\u4fe1\u606f\uff0c\u4e3a\u51fa\u56fd\u7559\u5b66\u4e0e\u804c\u4e1a\u53d1\u5c55\u6d3b\u52a8\u5236\u4f5c\u5b98\u65b9\u793e\u4ea4\u5a92\u4f53\u5185\u5bb9\u4e0e\u90ae\u4ef6\u901a\u77e5\u3002",
           ],
         },
         {
