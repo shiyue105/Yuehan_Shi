@@ -255,26 +255,6 @@ var I18N = {
             "Worked with healthcare business workflows and information-system applications, supporting system deployment and functional optimization.",
           ],
         },
-        {
-          org: "WKU Student Affairs Department",
-          location: "Wenzhou, China",
-          title: "Student Assistant",
-          period: "Feb 2024 \u2014 Jun 2024",
-          group: "campus",
-          bullets: [
-            "Organized administrative materials and responded to student and visitor inquiries regarding university policies, departmental responsibilities, and procedures.",
-          ],
-        },
-        {
-          org: "WKU Cultural Info and Media Association",
-          location: "Wenzhou, China",
-          title: "Member \u00b7 Event Operations",
-          period: "Dec 2023 \u2014 Jun 2024",
-          group: "campus",
-          bullets: [
-            "Supported planning and on-site operations for a 1,000-person campus event hosting a Kean University delegation, including booth coordination, materials, and reimbursement.",
-          ],
-        },
       ],
     },
 
@@ -534,26 +514,6 @@ var I18N = {
           bullets: [
             "\u4f7f\u7528 MySQL \u4e3a\u533b\u9662\u4fe1\u606f\u7cfb\u7edf\uff08HIS\uff09\u5f00\u53d1\u6570\u636e\u67e5\u8be2\u4e0e\u4e1a\u52a1\u62a5\u8868\uff0c\u8986\u76d6\u95e8\u8bca\u3001\u4f4f\u9662\u4e0e\u8bca\u65ad\u8bb0\u5f55\u3002",
             "\u719f\u6089\u533b\u7597\u4e1a\u52a1\u6d41\u7a0b\u4e0e\u4fe1\u606f\u7cfb\u7edf\u5e94\u7528\uff0c\u652f\u6301\u7cfb\u7edf\u90e8\u7f72\u4e0e\u529f\u80fd\u4f18\u5316\u3002",
-          ],
-        },
-        {
-          org: "\u6e29\u80af\u5927\u5b66\u5b66\u751f\u4e8b\u52a1\u90e8",
-          location: "\u4e2d\u56fd\u6e29\u5dde",
-          title: "\u5b66\u751f\u52a9\u7406",
-          period: "2024 \u5e74 2 \u6708 \u2014 6 \u6708",
-          group: "campus",
-          bullets: [
-            "\u6574\u7406\u884c\u653f\u6750\u6599\uff0c\u89e3\u7b54\u5e08\u751f\u4e0e\u8bbf\u5ba2\u5173\u4e8e\u5b66\u6821\u653f\u7b56\u3001\u90e8\u95e8\u804c\u8d23\u4e0e\u529e\u4e8b\u6d41\u7a0b\u7684\u54a8\u8be2\u3002",
-          ],
-        },
-        {
-          org: "\u6e29\u80af\u5927\u5b66\u6587\u5316\u4fe1\u606f\u4e0e\u5a92\u4f53\u534f\u4f1a",
-          location: "\u4e2d\u56fd\u6e29\u5dde",
-          title: "\u6210\u5458 \u00b7 \u6d3b\u52a8\u8fd0\u8425",
-          period: "2023 \u5e74 12 \u6708 \u2014 2024 \u5e74 6 \u6708",
-          group: "campus",
-          bullets: [
-            "\u53c2\u4e0e\u63a5\u5f85\u7f8e\u56fd\u80af\u6069\u5927\u5b66\u8bbf\u95ee\u56e2\u7684 1000 \u4eba\u6821\u56ed\u6d3b\u52a8\u7684\u7b56\u5212\u4e0e\u73b0\u573a\u8fd0\u8425\uff0c\u5305\u62ec\u644a\u4f4d\u534f\u8c03\u3001\u7269\u6599\u4e0e\u62a5\u9500\u3002",
           ],
         },
       ],
