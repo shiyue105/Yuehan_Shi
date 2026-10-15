@@ -239,35 +239,6 @@
   }
 
   /* ------------------------------------------------------------------
-     Education & honors
-     ------------------------------------------------------------------ */
-  function renderEducation() {
-    var d = D();
-    var ed = d.education;
-    document.getElementById("label-education").textContent = d.sections.education;
-    document.getElementById("heading-education").textContent = d.headings.education;
-
-    var box = document.getElementById("education-box");
-    box.innerHTML =
-      '<div class="edu-head">' +
-      "<h3>" + escapeHTML(ed.school) + "</h3>" +
-      '<p class="edu-period">' + escapeHTML(ed.period) + "</p>" +
-      "</div>" +
-      '<p class="edu-location">' + escapeHTML(ed.location) + "</p>" +
-      '<p class="edu-degree">' + escapeHTML(ed.degree) + "</p>" +
-      '<p class="edu-minor">' + escapeHTML(ed.minor) + "</p>" +
-      (ed.gpa ? '<p class="edu-gpa">' + escapeHTML(ed.gpa) + "</p>" : "") +
-      '<p class="edu-courses"><strong>' + escapeHTML(ed.coursesLabel) + ":</strong> " + escapeHTML(ed.courses) + "</p>";
-
-    var honors = document.getElementById("honors-list");
-    clear(honors);
-    document.getElementById("honors-label").textContent = ed.honorsLabel;
-    ed.honors.forEach(function (h) {
-      honors.appendChild(el("li", null, escapeHTML(h)));
-    });
-  }
-
-  /* ------------------------------------------------------------------
      Experience
      ------------------------------------------------------------------ */
   function renderExperience() {
@@ -395,7 +366,6 @@
     renderPublicationsHome();
     renderResearch();
     renderProjects();
-    renderEducation();
     renderExperience();
     renderSkills();
     renderContact();

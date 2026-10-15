@@ -154,15 +154,12 @@
     clear(navLinks);
     clear(mobileMenu);
 
-    var navItems = [
-      { label: d.nav[0].label, href: "./index.html#updates" },
-      { label: d.nav[1].label, href: "./publications.html" },
-      { label: d.nav[2].label, href: "./index.html#research" },
-      { label: d.nav[3].label, href: "./index.html#projects" },
-      { label: d.nav[4].label, href: "./index.html#education" },
-      { label: d.nav[5].label, href: "./index.html#experience" },
-      { label: d.nav[6].label, href: "./index.html#contact" },
-    ];
+    var navItems = d.nav.map(function (item) {
+      return {
+        label: item.label,
+        href: item.href === "#publications" ? "./publications.html" : "./index.html" + item.href,
+      };
+    });
 
     navItems.forEach(function (item) {
       var a = document.createElement("a");
