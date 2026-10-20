@@ -547,13 +547,13 @@ var SHARED = {
   sideSocialOrder: ["github"],
 };
 
-/* Initial display language: saved preference wins; first visit defaults to Chinese */
+/* Initial display language: saved preference wins; first visit defaults to English */
 var DEFAULT_LANG = (function () {
   try {
     var saved = localStorage.getItem("site-lang");
     if (saved === "en" || saved === "zh") return saved;
   } catch (e) { /* noop */ }
-  return "zh";
+  return "en";
 })();
 
 window.I18N = I18N;
