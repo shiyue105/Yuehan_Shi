@@ -16,11 +16,11 @@ var I18N = {
 
     profile: {
       name: "Yuehan Shi",
-      eyebrow: "Researcher \u00b7 Mathematical Sciences \u00b7 Data Analytics",
+      eyebrow: "Researcher \u00b7 Mathematics & Applied Mathematics \u00b7 Data Analytics",
       statement:
         "I research reliable machine learning \u2014 making models stay accurate and calibrated under distribution shift and uncertainty.",
       description:
-        "Undergraduate researcher in Mathematical Sciences (Data Analytics Option) with a Computer Science minor at " +
+        "Undergraduate researcher in Mathematics and Applied Mathematics (Data Analytics Option) with a Computer Science minor at " +
         "Wenzhou-Kean University. My work spans test-time adaptation, uncertainty calibration, trustworthy " +
         "retrieval-augmented generation, and time-series / spatiotemporal learning.",
       email: "yuehan_shi@outlook.com",
@@ -48,7 +48,7 @@ var I18N = {
 
     sections: {
       updates: "01 / Updates",
-      publications: "02 / Selected Publications",
+      publications: "02 / Publications",
       research: "03 / Research Interests",
       projects: "04 / Research Projects",
       education: "05 / Education & Honors",
@@ -58,7 +58,7 @@ var I18N = {
 
     headings: {
       updates: "Latest Updates",
-      publications: "Selected Publications",
+      publications: "Publications",
       research: "Research Interests",
       projects: "Research Projects",
       education: "Education & Honors",
@@ -124,16 +124,13 @@ var I18N = {
 
     researchInterests: [
       {
-        title: "Reliable Machine Learning",
-        detail: "Methods that stay accurate and well-calibrated under distribution shift, corruption, and noisy conditions.",
+        title: "Reliable Machine Learning & Uncertainty Quantification",
+        detail: "Methods that stay accurate and well-calibrated under distribution shift, corruption, and noisy conditions; " +
+          "split-conformal prediction, evidential uncertainty, and prediction-set reliability for safe decisions.",
       },
       {
         title: "Test-Time Adaptation",
         detail: "Online adaptation of Vision Transformers; sample-wise routing between conservative adaptation and self-training.",
-      },
-      {
-        title: "Uncertainty Calibration",
-        detail: "Split-conformal prediction, evidential uncertainty, and prediction-set reliability for safe decisions.",
       },
       {
         title: "Trustworthy Retrieval-Augmented Generation",
@@ -215,7 +212,7 @@ var I18N = {
       school: "Wenzhou-Kean University (WKU)",
       location: "Wenzhou, China",
       period: "Aug 2023 \u2014 Jun 2027 (expected)",
-      degree: "B.S. in Mathematical Sciences \u2014 Data Analytics Option (Wenzhou-Kean University) & B.A. (Kean University)",
+      degree: "B.S. in Mathematics and Applied Mathematics \u2014 Data Analytics Option (Wenzhou-Kean University) & B.A. (Kean University)",
       minor: "Minor: Computer Science",
       coursesLabel: "Core courses",
       courses: "Machine Learning, Data Mining, Data Visualization, Big Data Computing, Data Structures, Probability and Statistics, Linear Algebra, Calculus",
@@ -283,11 +280,11 @@ var I18N = {
 
     profile: {
       name: "Yuehan Shi",
-      eyebrow: "\u7814\u7a76\u8005 \u00b7 \u6570\u5b66\u79d1\u5b66 \u00b7 \u6570\u636e\u5206\u6790",
+      eyebrow: "\u7814\u7a76\u8005 \u00b7 \u6570\u5b66\u4e0e\u5e94\u7528\u6570\u5b66 \u00b7 \u6570\u636e\u5206\u6790",
       statement:
         "\u6211\u7814\u7a76\u53ef\u9760\u673a\u5668\u5b66\u4e60\u2014\u2014\u8ba9\u6a21\u578b\u5728\u5206\u5e03\u504f\u79fb\u4e0e\u4e0d\u786e\u5b9a\u6761\u4ef6\u4e0b\u4ecd\u7136\u51c6\u786e\u4e14\u6821\u51c6\u3002",
       description:
-        "\u6e29\u5dde\u80af\u6069\u5927\u5b66\u6570\u5b66\u79d1\u5b66\uff08\u6570\u636e\u5206\u6790\u65b9\u5411\uff09\u672c\u79d1\u751f\uff0c\u8f85\u4fee\u8ba1\u7b97\u673a\u79d1\u5b66\u3002" +
+        "\u6e29\u5dde\u80af\u6069\u5927\u5b66\u6570\u5b66\u4e0e\u5e94\u7528\u6570\u5b66\uff08\u6570\u636e\u5206\u6790\u65b9\u5411\uff09\u672c\u79d1\u751f\uff0c\u8f85\u4fee\u8ba1\u7b97\u673a\u79d1\u5b66\u3002" +
         "\u7814\u7a76\u65b9\u5411\u6db5\u76d6\u6d4b\u8bd5\u65f6\u81ea\u9002\u5e94\u3001\u4e0d\u786e\u5b9a\u6027\u6821\u51c6\u3001\u53ef\u4fe1\u68c0\u7d22\u589e\u5f3a\u751f\u6210\uff08RAG\uff09\u4ee5\u53ca\u65f6\u95f4\u5e8f\u5217\u4e0e\u65f6\u7a7a\u5b66\u4e60\u3002",
       email: "yuehan_shi@outlook.com",
       location: "\u4e2d\u56fd\u6e29\u5dde",
@@ -314,7 +311,7 @@ var I18N = {
 
     sections: {
       updates: "01 / \u6700\u65b0\u52a8\u6001",
-      publications: "02 / \u7cbe\u9009\u8bba\u6587",
+      publications: "02 / \u53d1\u8868\u8bba\u6587",
       research: "03 / \u7814\u7a76\u65b9\u5411",
       projects: "04 / \u7814\u7a76\u9879\u76ee",
       education: "05 / \u6559\u80b2\u4e0e\u8363\u8a89",
@@ -324,7 +321,7 @@ var I18N = {
 
     headings: {
       updates: "\u6700\u65b0\u52a8\u6001",
-      publications: "\u7cbe\u9009\u8bba\u6587",
+      publications: "\u53d1\u8868\u8bba\u6587",
       research: "\u7814\u7a76\u65b9\u5411",
       projects: "\u7814\u7a76\u9879\u76ee",
       education: "\u6559\u80b2\u4e0e\u8363\u8a89",
@@ -390,16 +387,12 @@ var I18N = {
 
     researchInterests: [
       {
-        title: "\u53ef\u9760\u673a\u5668\u5b66\u4e60",
-        detail: "\u8ba9\u6a21\u578b\u5728\u5206\u5e03\u504f\u79fb\u3001\u6570\u636e\u6c61\u67d3\u4e0e\u566a\u58f0\u6761\u4ef6\u4e0b\u4ecd\u7136\u4fdd\u6301\u51c6\u786e\u4e0e\u826f\u597d\u6821\u51c6\u3002",
+        title: "\u53ef\u9760\u673a\u5668\u5b66\u4e60\u4e0e\u4e0d\u786e\u5b9a\u6027\u91cf\u5316",
+        detail: "\u8ba9\u6a21\u578b\u5728\u5206\u5e03\u504f\u79fb\u3001\u6570\u636e\u6c61\u67d3\u4e0e\u566a\u58f0\u6761\u4ef6\u4e0b\u4ecd\u7136\u4fdd\u6301\u51c6\u786e\u4e0e\u826f\u597d\u6821\u51c6\uff1b\u7ed3\u5408\u5206\u5272\u5171\u5f62\u9884\u6d4b\u3001\u8bc1\u636e\u6df1\u5ea6\u5b66\u4e60\u4e0e\u9884\u6d4b\u96c6\u53ef\u9760\u6027\uff0c\u652f\u6491\u5b89\u5168\u51b3\u7b56\u3002",
       },
       {
         title: "\u6d4b\u8bd5\u65f6\u81ea\u9002\u5e94",
         detail: "Vision Transformer \u7684\u5728\u7ebf\u81ea\u9002\u5e94\uff1b\u5728\u4fdd\u5b88\u81ea\u9002\u5e94\u4e0e\u81ea\u8bad\u7ec3\u4e4b\u95f4\u8fdb\u884c\u6837\u672c\u7ea7\u8def\u7531\u3002",
-      },
-      {
-        title: "\u4e0d\u786e\u5b9a\u6027\u6821\u51c6",
-        detail: "\u5206\u5272\u5171\u5f62\u9884\u6d4b\u3001\u8bc1\u636e\u6df1\u5ea6\u5b66\u4e60\u4e0e\u9884\u6d4b\u96c6\u53ef\u9760\u6027\uff0c\u652f\u6491\u5b89\u5168\u51b3\u7b56\u3002",
       },
       {
         title: "\u53ef\u4fe1\u68c0\u7d22\u589e\u5f3a\u751f\u6210",
@@ -476,7 +469,7 @@ var I18N = {
       school: "\u6e29\u5dde\u80af\u6069\u5927\u5b66\uff08WKU\uff09",
       location: "\u4e2d\u56fd\u6e29\u5dde",
       period: "2023 \u5e74 8 \u6708 \u2014 2027 \u5e74 6 \u6708\uff08\u9884\u8ba1\uff09",
-      degree: "\u7406\u5b66\u5b66\u58eb\uff08\u6570\u5b66\u79d1\u5b66\u2014\u6570\u636e\u5206\u6790\u65b9\u5411\uff0c\u6e29\u5dde\u80af\u6069\u5927\u5b66\uff09\u4e0e\u6587\u5b66\u5b66\u58eb\uff08\u7f8e\u56fd\u80af\u6069\u5927\u5b66\uff09\u53cc\u5b66\u4f4d",
+      degree: "\u7406\u5b66\u5b66\u58eb\uff08\u6570\u5b66\u4e0e\u5e94\u7528\u6570\u5b66\u2014\u6570\u636e\u5206\u6790\u65b9\u5411\uff0c\u6e29\u5dde\u80af\u6069\u5927\u5b66\uff09\u4e0e\u6587\u5b66\u5b66\u58eb\uff08\u7f8e\u56fd\u80af\u6069\u5927\u5b66\uff09\u53cc\u5b66\u4f4d",
       minor: "\u8f85\u4fee\uff1a\u8ba1\u7b97\u673a\u79d1\u5b66",
       coursesLabel: "\u6838\u5fc3\u8bfe\u7a0b",
       courses: "\u673a\u5668\u5b66\u4e60\u3001\u6570\u636e\u6316\u6398\u3001\u6570\u636e\u53ef\u89c6\u5316\u3001\u5927\u6570\u636e\u8ba1\u7b97\u3001\u6570\u636e\u7ed3\u6784\u3001\u6982\u7387\u8bba\u4e0e\u6570\u7406\u7edf\u8ba1\u3001\u7ebf\u6027\u4ee3\u6570\u3001\u5fae\u79ef\u5206",
