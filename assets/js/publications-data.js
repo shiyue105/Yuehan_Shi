@@ -55,7 +55,7 @@
       {
         id: "olar2026-sea-level",
         year: 2026,
-        title: "Enhancing Regional Sea-Level Prediction Using TimeGAN-Augmented ConvLSTM, ConvGRU, and Mamba Models with Explainability",
+        title: "Enhancing Regional Sea-Level Prediction Using TimeGAN-Augmented Models with Explainability",
         authors: "G. Tong, Z. Zhong, Y. Shi, J. Rong, J. Chao, et al.",
         venue: {
           full: "Ocean-Land-Atmosphere Research (OLAR)",
