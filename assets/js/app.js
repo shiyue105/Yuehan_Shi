@@ -57,7 +57,6 @@
 
     document.getElementById("hero-eyebrow").textContent = d.profile.eyebrow;
     document.getElementById("hero-name").textContent = d.profile.name;
-    document.getElementById("hero-statement").textContent = d.profile.statement;
     document.getElementById("hero-description").textContent = d.profile.description;
 
     var cta = document.getElementById("hero-cta");
