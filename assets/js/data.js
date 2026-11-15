@@ -194,7 +194,7 @@ var I18N = {
         ],
       },
       {
-        name: "Enhancing Regional Sea-Level Prediction Using TimeGAN-Augmented ConvLSTM, ConvGRU, and Mamba Models with Explainability",
+        name: "Enhancing Regional Sea-Level Prediction Using TimeGAN-Augmented Models with Explainability",
         period: "Oct 2025 \u2014 Jun 2026",
         role: "Core Researcher (Data Processing, Model Development, Experimental Analysis)",
         supervisor: "Supervisor: Guanchao Tong \u00b7 WKU",
@@ -457,7 +457,7 @@ var I18N = {
         ],
       },
       {
-        name: "\u57fa\u4e8e TimeGAN \u589e\u5f3a\u7684 ConvLSTM\u3001ConvGRU \u4e0e Mamba \u6a21\u578b\u53ca\u5176\u53ef\u89e3\u91ca\u6027\u7684\u533a\u57df\u6d77\u5e73\u9762\u9884\u6d4b",
+        name: "\u57fa\u4e8e TimeGAN \u589e\u5f3a\u6a21\u578b\u53ca\u5176\u53ef\u89e3\u91ca\u6027\u7684\u533a\u57df\u6d77\u5e73\u9762\u9884\u6d4b",
         period: "2025 \u5e74 10 \u6708 \u2014 2026 \u5e74 6 \u6708",
         role: "\u6838\u5fc3\u7814\u7a76\u8005\uff08\u6570\u636e\u5904\u7406\u3001\u6a21\u578b\u5f00\u53d1\u3001\u5b9e\u9a8c\u5206\u6790\uff09",
         supervisor: "\u5bfc\u5e08\uff1aGuanchao Tong \u00b7 \u6e29\u80af\u5927\u5b66",
