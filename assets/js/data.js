@@ -17,8 +17,6 @@ var I18N = {
     profile: {
       name: "Yuehan Shi",
       eyebrow: "Researcher \u00b7 Mathematics & Applied Mathematics \u00b7 Data Analytics",
-      statement:
-        "I research reliable machine learning \u2014 making models stay accurate and calibrated under distribution shift and uncertainty.",
       description:
         "Undergraduate researcher in Mathematics and Applied Mathematics (Data Analytics Option) with a Computer Science minor at " +
         "Wenzhou-Kean University. My work spans test-time adaptation, uncertainty calibration, trustworthy " +
@@ -231,7 +229,7 @@ var I18N = {
       items: [
         {
           org: "Spartina Technology",
-          location: "Wenzhou",
+          location: "Wenzhou, China",
           title: "Partner, AI Product Manager",
           period: "Jun 2026 \u2014 Present",
           group: "industry",
@@ -281,8 +279,6 @@ var I18N = {
     profile: {
       name: "Yuehan Shi",
       eyebrow: "\u7814\u7a76\u8005 \u00b7 \u6570\u5b66\u4e0e\u5e94\u7528\u6570\u5b66 \u00b7 \u6570\u636e\u5206\u6790",
-      statement:
-        "\u6211\u7814\u7a76\u53ef\u9760\u673a\u5668\u5b66\u4e60\u2014\u2014\u8ba9\u6a21\u578b\u5728\u5206\u5e03\u504f\u79fb\u4e0e\u4e0d\u786e\u5b9a\u6761\u4ef6\u4e0b\u4ecd\u7136\u51c6\u786e\u4e14\u6821\u51c6\u3002",
       description:
         "\u6e29\u5dde\u80af\u6069\u5927\u5b66\u6570\u5b66\u4e0e\u5e94\u7528\u6570\u5b66\uff08\u6570\u636e\u5206\u6790\u65b9\u5411\uff09\u672c\u79d1\u751f\uff0c\u8f85\u4fee\u8ba1\u7b97\u673a\u79d1\u5b66\u3002" +
         "\u7814\u7a76\u65b9\u5411\u6db5\u76d6\u6d4b\u8bd5\u65f6\u81ea\u9002\u5e94\u3001\u4e0d\u786e\u5b9a\u6027\u6821\u51c6\u3001\u53ef\u4fe1\u68c0\u7d22\u589e\u5f3a\u751f\u6210\uff08RAG\uff09\u4ee5\u53ca\u65f6\u95f4\u5e8f\u5217\u4e0e\u65f6\u7a7a\u5b66\u4e60\u3002",
@@ -488,7 +484,7 @@ var I18N = {
       items: [
         {
           org: "\u7c73\u8349\u79d1\u6280\uff08Spartina Technology\uff09",
-          location: "\u6e29\u5dde",
+          location: "\u4e2d\u56fd\u6e29\u5dde",
           title: "\u5408\u4f19\u4eba\uff0cAI \u4ea7\u54c1\u7ecf\u7406",
           period: "2026 \u5e74 6 \u6708 \u2014 \u81f3\u4eca",
           group: "industry",
